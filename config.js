@@ -2,17 +2,16 @@ import firebase from 'firebase';
 require('@firebase/firestore')
 
 var firebaseConfig = {
-    apiKey: "AIzaSyBpK1uV-odwaF7LZaspjK67yYlSrTiHPcQ",
-    authDomain: "wireless-library-app-4c1e8.firebaseapp.com",
-    databaseURL: "https://wireless-library-app-4c1e8.firebaseio.com",
-    projectId: "wireless-library-app-4c1e8",
-    storageBucket: "wireless-library-app-4c1e8.appspot.com",
-    messagingSenderId: "932616623890",
-    appId: "1:932616623890:web:8a32e367f35cbe2c8945cb"
-  };
+  apiKey: "AIzaSyB5ZZ-8pGGBGF7up_o-KDt_hkTWNfY6aYM",
+  authDomain: "barter-system-app-47ca0.firebaseapp.com",
+  projectId: "barter-system-app-47ca0",
+  storageBucket: "barter-system-app-47ca0.appspot.com",
+  messagingSenderId: "411176530189",
+  appId: "1:411176530189:web:86c1043a36b3226e654044",
+  measurementId: "G-C2JZQ985F2"
+};
 
-  // Initialize Firebase
-  
-  firebase.initializeApp(firebaseConfig);
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
-  export default firebase.firestore();
+export default firebase.firestore();
